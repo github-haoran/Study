@@ -13,7 +13,7 @@ public class MainRedPacket {
         two.show(); // θ
         three.show(); // 0
         System.out.println("===============");
-//群主总共发20块钱，分成3个红包
+//群主总共发20块钱，分成3个红包、、测试Git
         ArrayList<Integer> redList = manager.send(100, 3);
 //三个普通成员收红包
         one.receive(redList);
